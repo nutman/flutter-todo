@@ -47,7 +47,8 @@ class HomeState extends State<Home> {
                         ..onTap = () {
                           launchUrl(
                             Uri.https(
-                              'docs.flutter.io',
+                              'github.com',
+                              'nutman/flutter-todo',
                             ),
                           );
                         },
